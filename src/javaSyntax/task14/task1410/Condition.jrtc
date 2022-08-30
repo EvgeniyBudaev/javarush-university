@@ -1,0 +1,10 @@
+В методе copyFile перехвати исключения, которые бросают методы readFile и writeFile.
+Перехваченные исключения оберни в RuntimeException и пробрось дальше.
+Требования:
+
+    •
+    В методе copyFile должны перехватываться FileNotFoundException и FileSystemException.
+    •
+    Все перехваченные исключения нужно оборачивать в RuntimeException и пробрасывать дальше.
+    •
+    У метода copyFile не должно быть исключений в секции throws.
